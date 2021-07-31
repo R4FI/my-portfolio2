@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+*{
+  
+  
+    text-decoration: none;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+ .info-cbr-bg{
+
+    background: #08345b no-repeat;
+} 
+
+.span-color{
+
+    color: crimson;
+}
+.my2-img{
+
+    height: 200px;
+    width: 200px;
+}
+.nav-bar{
+
+
+position: fixed;
+width: 100%;
+font-family: 'Ubuntu', sans-serif;
+
+
+}
+.head{
+
+    max-width: 1300px;
+    padding: 10px 90px;
+    margin: auto;
+    
+    
+    }
+.nav-bar .logo {
+
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+    
+.logo span{
+
+    color: crimson;
+ 
+}
+
+
+ a{
+
+    color: white;
+    align-items: center;
+ 
+
+}
+.nav-bar .menu li{
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+   
+    
+
+}
+.nav-bar .head {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.nav-bar .menu li a{
+
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    color: white;
+    transition: color 0.3s ease;
+
+
+}
+
+
+
+/*home section*/
+.home{
+
+    display: flex;
+    background: url(images/my.jpg) no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .head{
+
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-1{
+
+font-size: 27px;
+
+
+}
+
+.span-color{
+    color: crimson;
+}
+
+.running{
+
+  
+    animation: text 3s steps(16) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0ch;
+    border-right: 2px solid crimson; 
+   
+    
+}
+.running .run{
+
+    color: crimson;
+}
+
+       
+.home .home-content .text-3 span{
+    width: 0ch;
+    overflow: hidden;
+    color: crimson;
+    
+    
+}
+
+@keyframes text{
+
+        0%{
+
+            width: 0ch;
+        }
+            100%{
+
+                width: 14ch;
+            }
+
+}
+.second-part{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-me{
+
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 15%;
+   
+
+
+  
+}
+
+.img2 img{
+
+    height: 500px;
+    width: 500px;
+    margin-left: 20%;
+    margin-top: 40% ;
+}
+
+/*partner section*/
+
+
+.partner{
+ 
+    border: 4px solid white;
+    height: 420px;
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+    flex-wrap: wrap;
+    margin-top: 8%;
+ 
+}
+
+
+
+
+.box {
+        height: 300px;
+        width: 600px;
+        border: 3px solid white;
+        margin-top: 2%;
+        margin-left: 10%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        background:black;
+        box-shadow: 2px 2px 20px blueviolet;
+        
+       
+        
+
+
+}
+
+.box img{
+
+    border-radius: 5px;
+    height: 250px;
+    weight: 150px;
+    margin-top: 4%;
+    margin-left: 2%;
+
+}
+
+.para p{
+  
+    color: white;
+    margin-top: -40%;
+    margin-left: 40%;
+    width: 50%;
+}
+
+
+.partner h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.skill{
+
+    margin-top: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    background: rgb(40, 43, 43);
+    height: 400px;
+    width: 1500px;
+    margin-left: 160px;
+   box-shadow: 3px 4px 20px rgb(219, 148, 15);
+    border-radius: 13px;
+  
+  
+}
+.skills h2{
+        padding-top: 15px;
+        font-size: 25px;
+}
+.skills p{
+width:40%;
+margin-top: 2%;
+margin-left: 2%;
+
+}
+
+.skill-progress{
+      
+  
+}
+.skill-progress li{
+    list-style: none;
+}
